@@ -17,6 +17,6 @@ typeorm_1.createConnection({
     synchronize: true,
     logging: false
 }).then(connection => {
-    app_1.default.listen(config_1.config.PORT, () => console.log('Example app listening on port 3000!'));
+    app_1.default.listen(config_1.config.PORT, () => console.log('Example app listening on port 4006!'));
 }).catch(error => console.log(error));
 //# sourceMappingURL=server.js.map

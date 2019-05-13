@@ -3,5 +3,5 @@ interface ProjectConfig {
 }
 
 export const config: ProjectConfig = {
-    PORT: process.env.PORT || '4005'
+    PORT: process.env.PORT || '4006'
 } 
